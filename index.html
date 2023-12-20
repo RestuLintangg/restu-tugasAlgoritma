@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //nomor1
+        let a = 100;
+        let b = 200;
+        let c = 300;
+
+        if (a>b && a>c) {
+            console.log (a)
+        } else if (b>a && b>c) {
+            console.log (b)
+        } else if (c>a && c>b) {
+            console.log (c)
+        } else if (a==b && a==c) {
+            console.log ("semua bilangan sama")
+        }
+
+        //nomor3
+        let saklar = 1;
+
+        if (saklar == 1) {
+            console.log ("ON")
+        } else if (saklar == 0) {
+            console.log ("OFF")
+        }
+        
+        //nomor2
+        let bil = 5;
+
+        if (bil %2==1) {
+            console.log ("ganjil")
+        } else if (bil %2==0) {
+            console.log ("genap")
+        } 
+
+        if (bil >= 0) {
+            console.log ("positif")
+        } else if (bil < 0) {
+            console.log ("negatif")
+        }
+
+        //nomor5
+        let lembur = 3;
+
+        if (lembur <6) {
+            console.log ("gaji lembur Rp 100.000")
+        } else if (lembur >6) {
+            console.log ("gaji lembur Rp 300.000")
+        } else if (lembur =6) {
+            console.log ("gaji lembur Rp 200.000")
+        }
+
+        //nomor4
+        let barang1 = 1000;
+        let barang2 = 3000;
+        let barang3 = 2000;
+        let total = barang1 + barang2 + barang3;
+        let diskon = 10/100*total;
+
+        if (total >1000) {
+            console.log (total-diskon)
+        } else if (total <1000) {
+            console.log (total)
+        }
+
+        //nomor6
+        let PintuAir = 500;
+
+        if (PintuAir <=500) {
+            console.log ("AMAN")
+        } else if (PintuAir >500 && PintuAir <=600) {
+            Console.log ("WASPADA")
+        } else if (PintuAir >600 && PintuAir <=650) {
+            console.log ("SIAGA2")
+        } else if (PintuAir >650) {
+            console.log ("SIAGA1")
+        }
+    </script>
+</body>
+</html>
