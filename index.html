@@ -83,6 +83,105 @@
         } else if (PintuAir >650) {
             console.log ("SIAGA1")
         }
+
+        let Jalur = "Prestasi"
+        let NilaiUn = 80
+        let TesMandiri = 92
+
+        if (NilaiUn >89 && NilaiUn <101) {
+            console.log("Nilai Sempurna dan Lolos")
+        }else if (NilaiUn >79 && NilaiUn <90) {
+            console.log("Mengikuti tes mandiri")
+        }else if (Tes >78 && Tes <101) [
+            console.log("Lolos Test")
+        ]
+
+        //coding bu duma
+        let nilai= 79
+        let tesMandiri= 85
+        let jalur= "rapot"
+
+        if (nilai >=90 && nilai <=100) {
+            console.log("Nilai sempurna")
+        } else if (nilai >=75 && nilai <=90) {
+            if (jalur == "rapot") {
+                console.log ("Anda lulus nilai lewat jalur rapot")
+            }else if (jalur == "prestasi") {
+                console.log ("Anda lulus nilai lewat jalur prestasi")
+            }
+                
+        }else {
+            if(tesMandiri >=80) {
+                console.log("Lolos tes masuk")
+            }else {
+                console.log ("Tidak lolos masuk")
+            }
+        }
+        
+        //for
+        for(let z = 0; z <= 5; z++) {
+            console.log('data z ke-', z)
+        }
+
+        //while
+        let x = 1
+        while(x <= 5) {
+            console.log('data x ke-', x)
+            x++
+        }
+
+        //do while
+        let y = 10
+        do {
+            console.log('data y ke-', y)
+            y++
+        } while (y <= 5)
+
+        //do-while ganjil genap
+        let p = 1
+        do {
+            p++
+            if (p % 2 == 0) {
+                console.log('do genap', p)
+            }
+        } while (p <=50)
+
+        let o = 1
+        do {
+            o++
+            if (o % 2 == 1) {
+                console.log('do ganjil', o)
+            }
+        } while (o <=50)
+
+        //for ganjil genap
+        for(let a = 0; a <= 50; a++) {
+            if (a %2==0) {
+                console.log ("for genap",a)
+            }
+        }
+
+        for(let b = 0; b <= 50; b++) {
+            if (b %2==1) {
+                console.log ("for ganjil",b)
+            }
+        }
+
+        //while ganjil genap 
+        let d = 1
+        while (d<=50) {
+            if (d %2==0)
+            console.log ("while genap",d)
+            d++
+        }
+
+        let e = 1
+        while (e<=50) {
+            if (e %2==1)
+            console.log ("while genap",e)
+            e++
+        }
+
     </script>
 </body>
 </html>
